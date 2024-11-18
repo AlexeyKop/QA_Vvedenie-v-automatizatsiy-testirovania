@@ -1,0 +1,14 @@
+
+z
+java:S1450
+"_Remove the "smokeValueActual" field and declare it as a local variable in the relevant methods.(ÇÈƒ¶ùÿÿÿÿ
+{
+java:S1450"eRemove the "temperatureValueActual" field and declare it as a local variable in the relevant methods.(›—·õ
+W
+java:S1126""AReplace this if-then-else statement by a single return statement.(úËÂ¦
+@	java:S106*"+Replace this use of System.out by a logger.(ÚÀ€ô
+P
+java:S1068":Remove this unused "temperatureValueActual" private field.(›—·õ
+O
+java:S1068
+"4Remove this unused "smokeValueActual" private field.(ÇÈƒ¶ùÿÿÿÿ
