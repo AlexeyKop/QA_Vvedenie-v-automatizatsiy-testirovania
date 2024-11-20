@@ -1,0 +1,329 @@
+{
+	"id": "eed81fb5-6d43-455e-9bb4-4150f27d9d16",
+	"name": "accuweather_home",
+	"timestamp": "2024-11-20T20:32:02.731Z",
+	"collection_id": "32116882-bd66d060-2986-4c86-90a4-1506f410dd2e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 26,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-20T20:31:58.360Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8373a2d1-e5f4-4372-9b65-3d56f05b5501",
+			"name": "Weather10Days",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/daily/10day/295954?apikey=AUTH_VALUE",
+			"time": 545,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				545
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "7704aa4c-6dda-4c20-a2ce-f0be1af9ef37",
+			"name": "Weather15Days",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/daily/15day/295954?apikey=AUTH_VALUE",
+			"time": 272,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				272
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "1f0e3e53-0264-4c9d-9335-696c58e6b126",
+			"name": "Weather5Days",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/daily/5day/295954?apikey=AUTH_VALUE",
+			"time": 420,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"response time is less than 1000ms": true,
+				"Count object": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Count object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				420
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"response time is less than 1000ms": true,
+					"Count object": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "6f0c9344-9b45-4529-9f91-c7cca39ccb40",
+			"name": "Weather1Day",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/daily/1day/295954?apikey=AUTH_VALUE",
+			"time": 384,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"response time is less than 1000ms": true,
+				"Count object": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Count object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				384
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"response time is less than 1000ms": true,
+					"Count object": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "4a7f550b-b5fb-4455-8538-f340f35999c1",
+			"name": "Weather_12Hours",
+			"url": "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/295954?apikey=AUTH_VALUE",
+			"time": 379,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				379
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "8445badd-29c5-4734-96f0-1155abc48c86",
+			"name": "Location",
+			"url": "http://dataservice.accuweather.com/locations/v1/cities/autocomplete?q=Kazan&apikey=AUTH_VALUE",
+			"time": 287,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"response time is less than 1000ms": true,
+				"Count object": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Count object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"response time is less than 1000ms": true,
+					"Count object": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "9d2dbc06-d690-43fb-9096-b8baa34f5b0b",
+			"name": "City Neighbors by location",
+			"url": "http://dataservice.accuweather.com/locations/v1/cities/neighbors/295954?apikey=AUTH_VALUE",
+			"time": 310,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"response time is less than 1000ms": true,
+				"Count object": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Count object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				310
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"response time is less than 1000ms": true,
+					"Count object": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2597,
+	"collection": {
+		"requests": [
+			{
+				"id": "8373a2d1-e5f4-4372-9b65-3d56f05b5501",
+				"method": "GET"
+			},
+			{
+				"id": "7704aa4c-6dda-4c20-a2ce-f0be1af9ef37",
+				"method": "GET"
+			},
+			{
+				"id": "1f0e3e53-0264-4c9d-9335-696c58e6b126",
+				"method": "GET"
+			},
+			{
+				"id": "6f0c9344-9b45-4529-9f91-c7cca39ccb40",
+				"method": "GET"
+			},
+			{
+				"id": "4a7f550b-b5fb-4455-8538-f340f35999c1",
+				"method": "GET"
+			},
+			{
+				"id": "8445badd-29c5-4734-96f0-1155abc48c86",
+				"method": "GET"
+			},
+			{
+				"id": "9d2dbc06-d690-43fb-9096-b8baa34f5b0b",
+				"method": "GET"
+			}
+		]
+	}
+}

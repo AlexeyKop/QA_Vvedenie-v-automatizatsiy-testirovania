@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.max</groupId>
-    <artifactId>auto</artifactId>
+    <groupId>com.home.Test_REST_API</groupId>
+    <artifactId>accuweather</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!-- Переменные -->
@@ -18,12 +18,6 @@
         <surefire.version>2.22.2</surefire.version>
     </properties>
 
-    <!-- Архивирование -->
-    <packaging>jar</packaging>
-
-    <name>Демо проект</name>
-    <description>Демонстрационный проект для курса введения в автоматизацию</description>
-    <url>http://demo.max.org</url>
 
     <!-- Зависимости -->
     <dependencies>
@@ -74,13 +68,5 @@
 
         </plugins>
     </build>
-
-    <!-- Репозитории -->
-    <repositories>
-        <repository>
-            <id>mvnrepository</id>
-            <url>https://mvnrepository.com/</url>
-        </repository>
-    </repositories>
 
 </project>
