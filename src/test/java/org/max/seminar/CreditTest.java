@@ -25,7 +25,7 @@ public class CreditTest extends AbstractTest {
         while (rs.next()) {
             countTableSize++;
         }
-        final Query query = getSession().createSQLQuery(sql).addEntity(CreditEntity.class);
+        final Query query = getSession().createNativeQuery(sql).addEntity(CreditEntity.class);
         //then
         Assertions.assertEquals(1, countTableSize);
         Assertions.assertEquals(1, query.list().size());
@@ -52,7 +52,7 @@ public class CreditTest extends AbstractTest {
         session.getTransaction().commit();
 
         final Query query = getSession()
-                .createSQLQuery("SELECT * FROM credit WHERE credit_id="+2).addEntity(CreditEntity.class);
+                .createNativeQuery("SELECT * FROM credit WHERE credit_id="+2).addEntity(CreditEntity.class);
         CreditEntity creditEntity = (CreditEntity) query.uniqueResult();
         //then
         Assertions.assertNotNull(creditEntity);
@@ -64,7 +64,7 @@ public class CreditTest extends AbstractTest {
     void deleteCredit_whenValid_shouldDelete() {
         //given
         final Query query = getSession()
-                .createSQLQuery("SELECT * FROM credit WHERE credit_id=" + 2).addEntity(CreditEntity.class);
+                .createNativeQuery("SELECT * FROM credit WHERE credit_id=" + 2).addEntity(CreditEntity.class);
         Optional<CreditEntity> creditEntity = (Optional<CreditEntity>) query.uniqueResultOptional();
         Assumptions.assumeTrue(creditEntity.isPresent());
         //when
@@ -77,7 +77,7 @@ public class CreditTest extends AbstractTest {
         session.getTransaction().commit();
         //then
         final Query queryAfterDelete = getSession()
-                .createSQLQuery("SELECT * FROM credit WHERE credit_id=" + 2).addEntity(CreditEntity.class);
+                .createNativeQuery("SELECT * FROM credit WHERE credit_id=" + 2).addEntity(CreditEntity.class);
         Optional<CreditEntity> creditEntityAfterDelete = (Optional<CreditEntity>) queryAfterDelete.uniqueResultOptional();
         Assertions.assertFalse(creditEntityAfterDelete.isPresent());
     }

@@ -21,7 +21,7 @@ public class DebitTest extends AbstractTest {
         while (rs.next()) {
             countTableSize++;
         }
-        final Query query = getSession().createSQLQuery(sql).addEntity(DebitEntity.class);
+        final Query query = getSession().createNativeQuery(sql).addEntity(DebitEntity.class);
         //then
         Assertions.assertEquals(1, countTableSize);
         Assertions.assertEquals(1, query.list().size());

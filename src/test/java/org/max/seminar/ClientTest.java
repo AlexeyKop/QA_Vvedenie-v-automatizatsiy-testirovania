@@ -25,7 +25,7 @@ public class ClientTest extends AbstractTest {
         while (rs.next()) {
             countTableSize++;
         }
-        final Query query = getSession().createSQLQuery(sql).addEntity(ClientEntity.class);
+        final Query query = getSession().createNativeQuery(sql).addEntity(ClientEntity.class);
         //then
         Assertions.assertEquals(3, countTableSize);
         Assertions.assertEquals(3, query.list().size());

@@ -28,7 +28,7 @@ public class CustomerTest extends AbstractTest{
         while (rs.next()) {
             countTableSize++;
         }
-        final Query query = getSession().createSQLQuery("SELECT * FROM customers").addEntity(CustomersEntity.class);
+        final Query query = getSession().createNativeQuery("SELECT * FROM customers").addEntity(CustomersEntity.class);
         //then
         Assertions.assertEquals(8, countTableSize);
         Assertions.assertEquals(15, query.list().size());
@@ -71,7 +71,7 @@ public class CustomerTest extends AbstractTest{
         session.getTransaction().commit();
 
         final Query query = getSession()
-                .createSQLQuery("SELECT * FROM customers WHERE customer_id="+16).addEntity(CustomersEntity.class);
+                .createNativeQuery("SELECT * FROM customers WHERE customer_id="+16).addEntity(CustomersEntity.class);
         CustomersEntity creditEntity = (CustomersEntity) query.uniqueResult();
         //then
         Assertions.assertNotNull(creditEntity);
@@ -83,7 +83,7 @@ public class CustomerTest extends AbstractTest{
     void deleteCustomer_whenValid_shouldDelete() {
         //given
         final Query query = getSession()
-                .createSQLQuery("SELECT * FROM customers WHERE customer_id=" + 16).addEntity(CustomersEntity.class);
+                .createNativeQuery("SELECT * FROM customers WHERE customer_id=" + 16).addEntity(CustomersEntity.class);
         Optional<CustomersEntity> customersEntity = (Optional<CustomersEntity>) query.uniqueResultOptional();
         Assumptions.assumeTrue(customersEntity.isPresent());
         //when
@@ -93,7 +93,7 @@ public class CustomerTest extends AbstractTest{
         session.getTransaction().commit();
         //then
         final Query queryAfterDelete = getSession()
-                .createSQLQuery("SELECT * FROM customers WHERE customer_id=" + 16).addEntity(CustomersEntity.class);
+                .createNativeQuery("SELECT * FROM customers WHERE customer_id=" + 16).addEntity(CustomersEntity.class);
         Optional<CustomersEntity> customersEntityAfterDelete = (Optional<CustomersEntity>) queryAfterDelete.uniqueResultOptional();
         Assertions.assertFalse(customersEntityAfterDelete.isPresent());
     }

@@ -23,7 +23,7 @@ public class EmployeeTest extends AbstractTest {
         while (rs.next()) {
             countTableSize++;
         }
-        final Query query = getSession().createSQLQuery(sql).addEntity(EmployeeEntity.class);
+        final Query query = getSession().createNativeQuery(sql).addEntity(EmployeeEntity.class);
         //then
         Assertions.assertEquals(2, countTableSize);
         Assertions.assertEquals(2, query.list().size());

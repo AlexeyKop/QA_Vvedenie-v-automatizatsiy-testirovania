@@ -67,7 +67,7 @@ public class HibernateTest {
      */
     @Test
     void testSQL() {
-        final Query query = getSession().createSQLQuery("select * from employee").addEntity(EmployeeEntity.class);
+        final Query query = getSession().createNativeQuery("select * from employee").addEntity(EmployeeEntity.class);
         System.out.println("executing: " + query.getQueryString());
         List<EmployeeEntity> employeeEntities = query.list();
         for (EmployeeEntity entity : employeeEntities) {
@@ -77,7 +77,7 @@ public class HibernateTest {
         Assertions.assertEquals(3, employeeEntities.size());
 
         String sql = "select name, capacity from employee";
-        Query queryNameAndCapacity = getSession().createSQLQuery(sql);
+        Query queryNameAndCapacity = getSession().createNativeQuery(sql);
 
         List<Object[]> rows = queryNameAndCapacity.list();
 

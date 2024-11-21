@@ -1,13 +1,14 @@
 package org.max.seminar;
 
+import jakarta.persistence.metamodel.EntityType;
+import jakarta.persistence.metamodel.Metamodel;
 import org.hibernate.HibernateException;
-import org.hibernate.Metamodel;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
-import javax.persistence.metamodel.EntityType;
+
 
 public class MainHome {
     private static final SessionFactory ourSessionFactory;
