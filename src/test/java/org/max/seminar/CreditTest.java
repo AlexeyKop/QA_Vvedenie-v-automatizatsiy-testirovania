@@ -52,7 +52,8 @@ public class CreditTest extends AbstractTest {
         session.getTransaction().commit();
 
         final Query query = getSession()
-                .createNativeQuery("SELECT * FROM credit WHERE credit_id="+2).addEntity(CreditEntity.class);
+                .createNativeQuery("SELECT * FROM credit WHERE credit_id="+2)
+                .addEntity(CreditEntity.class);
         CreditEntity creditEntity = (CreditEntity) query.uniqueResult();
         //then
         Assertions.assertNotNull(creditEntity);
@@ -64,7 +65,8 @@ public class CreditTest extends AbstractTest {
     void deleteCredit_whenValid_shouldDelete() {
         //given
         final Query query = getSession()
-                .createNativeQuery("SELECT * FROM credit WHERE credit_id=" + 2).addEntity(CreditEntity.class);
+                .createNativeQuery("SELECT * FROM credit WHERE credit_id=" + 2)
+                .addEntity(CreditEntity.class);
         Optional<CreditEntity> creditEntity = (Optional<CreditEntity>) query.uniqueResultOptional();
         Assumptions.assumeTrue(creditEntity.isPresent());
         //when

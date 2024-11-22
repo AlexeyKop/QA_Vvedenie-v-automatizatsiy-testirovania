@@ -16,6 +16,7 @@ public class ClientTest extends AbstractTest {
 
     @Test
     void getClients_whenValid_shouldReturn() throws SQLException {
+        // с использованием SQL
         //given
         String sql = "SELECT * FROM client";
         Statement stmt  = getConnection().createStatement();
@@ -25,6 +26,7 @@ public class ClientTest extends AbstractTest {
         while (rs.next()) {
             countTableSize++;
         }
+        // с использованием Hibernate
         final Query query = getSession().createNativeQuery(sql).addEntity(ClientEntity.class);
         //then
         Assertions.assertEquals(3, countTableSize);

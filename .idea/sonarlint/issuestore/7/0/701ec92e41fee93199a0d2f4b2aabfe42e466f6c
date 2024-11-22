@@ -1,15 +1,13 @@
 
 r
-java:S3740)"/Provide the parametrized type for this generic.(Üèõ8…èÂû´2J$0b3d8c88-1af9-406c-8b40-dd6d976fa65f
-]	java:S125"<This block of commented-out lines of code should be removed.(²ƒ‡şÿÿÿÿ8šÆÇû´2
+java:S3740)"/Provide the parametrized type for this generic.(Üèõ8…èÂû´2J$a2de2bd9-2836-4204-a3b6-3c190a039987
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(²ƒ‡şÿÿÿÿ8šÆÇû´2J$67fcbf58-30e5-4e0a-943b-e09d34d02e8e
 m
-java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8¼èÂû´2J$85725cf5-32b0-467d-b512-f988675896be
-m	java:S106%"+Replace this use of System.out by a logger.(ÚÈÀÅ8ÒèÂû´2J$6aa43c6e-13d2-4a89-9aed-972310c37f70
+java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8¼èÂû´2J$e3a2e0b0-3047-4c8e-a263-564540c9933b
+m	java:S106%"+Replace this use of System.out by a logger.(ÚÈÀÅ8ÒèÂû´2J$c115f993-47ce-478a-b810-10b4fc73f1f4
 v
-java:S1874)"3Remove this use of "createQuery"; it is deprecated.(Üèõ8ÚèÂû´2J$c058a5cd-4ae7-419e-81d0-710f311b1763
-m	java:S106*"+Replace this use of System.out by a logger.( ´ù˜8ÜèÂû´2J$d4e4a8c3-8b8b-4028-b65c-c6bd0ba7b08c
-r	java:S106,"+Replace this use of System.out by a logger.(¿ËÛ›ûÿÿÿÿ8ŞèÂû´2J$f0c5b17d-c12a-42b4-833e-ceeaa812e8c8
-f
-java:S1128"Remove this duplicated import.(¤— ´ûÿÿÿÿ8µ…Ãû´2J$9ef1cb5b-50c6-438e-b76b-dca65181fbf6
-L
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ÃÆÇû´2
+java:S1874)"3Remove this use of "createQuery"; it is deprecated.(Üèõ8ÚèÂû´2J$fe0343cc-028b-415b-bf86-9e98309ff6a0
+m	java:S106*"+Replace this use of System.out by a logger.( ´ù˜8ÜèÂû´2J$1cf73cf4-6113-460e-abee-3172e8205cd6
+r	java:S106,"+Replace this use of System.out by a logger.(¿ËÛ›ûÿÿÿÿ8ŞèÂû´2J$8b039956-83ab-4566-b964-deaf79ee7178
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ÃÆÇû´2J$c95b61b2-5ec7-4ed3-8342-061eec985f04

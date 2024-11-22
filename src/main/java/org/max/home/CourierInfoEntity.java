@@ -1,6 +1,6 @@
 package org.max.home;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Objects;
 
 @Entity

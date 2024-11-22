@@ -1,6 +1,6 @@
 package org.max.demo;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "employee_info", schema = "main", catalog = "")

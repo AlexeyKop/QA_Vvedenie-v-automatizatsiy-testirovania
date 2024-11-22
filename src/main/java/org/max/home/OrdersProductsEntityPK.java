@@ -1,7 +1,6 @@
 package org.max.home;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
+import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
