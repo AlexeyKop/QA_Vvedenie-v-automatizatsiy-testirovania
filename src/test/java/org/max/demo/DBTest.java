@@ -24,7 +24,7 @@ public class DBTest {
 
     @Test
     void insert() throws SQLException {
-        insertRequestInfo(100001, "name", "10", "", "OLD");
+        insertRequestInfo(10001, "name", "10", "", "OLD");
         String sql = "SELECT * FROM request_type";
 
             Statement stmt  = connection.createStatement();
