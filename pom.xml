@@ -98,8 +98,8 @@
                 <version>${flyway.version}</version>
                 <configuration>
                     <baselineOnMigrate>true</baselineOnMigrate>
-                    <url>jdbc:sqlite:seminar.db</url>
-                    <locations>filesystem:db/seminar/migration</locations>
+                    <url>jdbc:sqlite:home.db</url>
+                    <locations>filesystem:db/home/migration</locations>
                 </configuration>
             </plugin>
 

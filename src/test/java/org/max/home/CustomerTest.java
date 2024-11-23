@@ -5,7 +5,6 @@ import org.hibernate.query.Query;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.max.seminar.CurrentEntity;
 
 import jakarta.persistence.*;
 import java.sql.ResultSet;
@@ -20,7 +19,8 @@ public class CustomerTest extends AbstractTest{
     @Order(1)
     void getCustomers_whenValid_shouldReturn() throws SQLException {
         //given
-        String sql = "SELECT * FROM customers WHERE district='Южный'";
+        // through SQL
+        String sql = "SELECT * FROM customers WHERE district='Восточный'";
         Statement stmt  = getConnection().createStatement();
         int countTableSize = 0;
         //when
@@ -28,9 +28,12 @@ public class CustomerTest extends AbstractTest{
         while (rs.next()) {
             countTableSize++;
         }
-        final Query query = getSession().createNativeQuery("SELECT * FROM customers").addEntity(CustomersEntity.class);
+        // through Hibernate
+        final Query query = getSession()
+                .createNativeQuery("SELECT * FROM customers")
+                .addEntity(CustomersEntity.class);
         //then
-        Assertions.assertEquals(8, countTableSize);
+        Assertions.assertEquals(5, countTableSize);
         Assertions.assertEquals(15, query.list().size());
     }
 
@@ -71,7 +74,8 @@ public class CustomerTest extends AbstractTest{
         session.getTransaction().commit();
 
         final Query query = getSession()
-                .createNativeQuery("SELECT * FROM customers WHERE customer_id="+16).addEntity(CustomersEntity.class);
+                .createNativeQuery("SELECT * FROM customers WHERE customer_id="+16)
+                .addEntity(CustomersEntity.class);
         CustomersEntity creditEntity = (CustomersEntity) query.uniqueResult();
         //then
         Assertions.assertNotNull(creditEntity);
@@ -83,7 +87,8 @@ public class CustomerTest extends AbstractTest{
     void deleteCustomer_whenValid_shouldDelete() {
         //given
         final Query query = getSession()
-                .createNativeQuery("SELECT * FROM customers WHERE customer_id=" + 16).addEntity(CustomersEntity.class);
+                .createNativeQuery("SELECT * FROM customers WHERE customer_id=" + 16)
+                .addEntity(CustomersEntity.class);
         Optional<CustomersEntity> customersEntity = (Optional<CustomersEntity>) query.uniqueResultOptional();
         Assumptions.assumeTrue(customersEntity.isPresent());
         //when
@@ -93,7 +98,8 @@ public class CustomerTest extends AbstractTest{
         session.getTransaction().commit();
         //then
         final Query queryAfterDelete = getSession()
-                .createNativeQuery("SELECT * FROM customers WHERE customer_id=" + 16).addEntity(CustomersEntity.class);
+                .createNativeQuery("SELECT * FROM customers WHERE customer_id=" + 16)
+                .addEntity(CustomersEntity.class);
         Optional<CustomersEntity> customersEntityAfterDelete = (Optional<CustomersEntity>) queryAfterDelete.uniqueResultOptional();
         Assertions.assertFalse(customersEntityAfterDelete.isPresent());
     }

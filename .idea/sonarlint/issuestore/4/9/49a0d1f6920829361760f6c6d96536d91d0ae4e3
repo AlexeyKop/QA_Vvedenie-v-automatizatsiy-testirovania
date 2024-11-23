@@ -1,3 +1,5 @@
 
-
-java:S5778p"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(¡¦®‰8¶Ÿä¦µ2
+f
+java:S5786"Remove this 'public' modifier.(Ñšª‡øÿÿÿÿ8ÔÉ¥Áµ2J$b81a864b-302f-437c-b8d7-d596e0959581
+¥
+java:S5778v"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(¡¦®‰8ÛÉ¥Áµ2J$9e767a14-4e72-4df8-83b6-fcbe5166c873
