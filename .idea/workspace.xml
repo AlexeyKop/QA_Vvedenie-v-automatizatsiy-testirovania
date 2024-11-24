@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dc91050-2e57-4f19-9aae-1ce10cc6f382" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pDHExFqtRFAeauK0j0Aec3WzTZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainHome.executor": "Run",
+    "Application.org.max.home.MainHome.executor": "Run",
+    "JUnit.BankCreditTest.when_in_black_list_http_should_throw.executor": "Run",
+    "JUnit.BankCreditTest.when_in_black_list_should_throw.executor": "Run",
+    "JUnit.BankCreditTest.when_notvalid_should_throw.executor": "Run",
+    "JUnit.BankCreditTest.when_valid_should_return.executor": "Run",
+    "JUnit.ClientTest.getClientById_whenValid_shouldReturn.executor": "Run",
+    "JUnit.ClientTest.getClients_whenValid_shouldReturn.executor": "Run",
+    "JUnit.CourierTest.addCourier_whenDuplicateId_shouldThrowException.executor": "Run",
+    "JUnit.CourierTest.addCourier_whenValid_shouldSave.executor": "Run",
+    "JUnit.CourierTest.deleteCourier_whenValid_shouldDelete.executor": "Run",
+    "JUnit.CourierTest.executor": "Run",
+    "JUnit.CourierTest.getCourierById_whenValid_shouldReturn.executor": "Run",
+    "JUnit.CourierTest.getCouriers_whenValid_shouldReturn.executor": "Run",
+    "JUnit.CreditTest.addCredit_whenValid_shouldSave.executor": "Run",
+    "JUnit.CreditTest.deleteCredit_whenValid_shouldDelete.executor": "Run",
+    "JUnit.CustomerTest.addCustomer_whenNotValid_shouldThrow.executor": "Run",
+    "JUnit.CustomerTest.addCustomer_whenValid_shouldSave.executor": "Run",
+    "JUnit.CustomerTest.deleteCustomer_whenValid_shouldDelete.executor": "Run",
+    "JUnit.CustomerTest.getCustomerById_whenValid_shouldReturn.executor": "Run",
+    "JUnit.CustomerTest.getCustomers_whenValid_shouldReturn.executor": "Run",
+    "JUnit.LogbackExampleTest.executor": "Run",
+    "JUnit.MockitoExampleTest.simpleMockTest.executor": "Run",
+    "JUnit.MockitoExampleTest.simpleSpyTest.executor": "Run",
+    "JUnit.ProductsTest.addProduct_whenNotValid_shouldThrow.executor": "Run",
+    "JUnit.ProductsTest.addProduct_whenValid_shouldSave.executor": "Run",
+    "JUnit.ProductsTest.deleteProduct_whenValid_shouldDelete.executor": "Run",
+    "JUnit.ProductsTest.getProductByName_whenValid_shouldReturn.executor": "Run",
+    "JUnit.ProductsTest.getProducts_whenValid_shouldReturn.executor": "Run",
+    "JUnit.TriangleTest.testMockAnswer.executor": "Run",
+    "JUnit.TriangleTest.testMockThrow.executor": "Run",
+    "JUnit.TriangleTest.testMockWhen.executor": "Run",
+    "JUnit.TriangleTest.testWithoutMock.executor": "Run",
+    "JUnit.WireMockTest.executor": "Run",
+    "JUnit.WireMockTest.testHeaderMatching.executor": "Run",
+    "JUnit.WireMockTest.testPriority.executor": "Run",
+    "JUnit.WireMockTest.testURLMatching.executor": "Run",
+    "JUnit.WireMockTest.testUrlEqual.executor": "Run",
+    "Maven.auto [org.flywaydb:flyway-maven-plugin:8.5.13:migrate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "lesson5-demo-project",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.49395162",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.BankCreditTest.when_not_param_should_throw">
+    <configuration name="BankCreditTest.when_in_black_list_http_should_throw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankCreditTest" />
+      <option name="METHOD_NAME" value="when_in_black_list_http_should_throw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankCreditTest.when_in_black_list_should_throw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankCreditTest" />
+      <option name="METHOD_NAME" value="when_in_black_list_should_throw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankCreditTest.when_not_param_should_throw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankCreditTest" />
+      <option name="METHOD_NAME" value="when_not_param_should_throw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankCreditTest.when_notvalid_should_throw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankCreditTest" />
+      <option name="METHOD_NAME" value="when_notvalid_should_throw(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankCreditTest.when_valid_should_return" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankCreditTest" />
+      <option name="METHOD_NAME" value="when_valid_should_return(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BankCreditTest.when_not_param_should_throw" />
+        <item itemvalue="JUnit.BankCreditTest.when_in_black_list_http_should_throw" />
+        <item itemvalue="JUnit.BankCreditTest.when_in_black_list_should_throw" />
+        <item itemvalue="JUnit.BankCreditTest.when_notvalid_should_throw" />
+        <item itemvalue="JUnit.BankCreditTest.when_valid_should_return" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc91050-2e57-4f19-9aae-1ce10cc6f382" name="Changes" comment="" />
+      <created>1732293625609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732293625609</updated>
+    </task>
+    <servers />
+  </component>
+</project>

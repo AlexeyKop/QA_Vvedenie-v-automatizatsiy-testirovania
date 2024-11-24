@@ -1,0 +1,33 @@
+
+M
+java:S2629"7Use the built-in formatting to construct this argument.(Æô»±
+M
+java:S26291"7Use the built-in formatting to construct this argument.(Æô»±
+T
+java:S1854">Remove this useless assignment to local variable "testperiod".(àž‘ú
+R
+java:S1854"<Remove this useless assignment to local variable "testsumm".(×Ïþù
+[
+java:S1854"@Remove this useless assignment to local variable "testinitSumm".(Ûª«ÿÿÿÿÿ
+W
+java:S3457"AFormat specifiers should be used instead of string concatenation.(Æô»±
+E
+java:S1481"/Remove this unused "testperiod" local variable.(àž‘ú
+C
+java:S1481"-Remove this unused "testsumm" local variable.(×Ïþù
+L
+java:S1481"1Remove this unused "testinitSumm" local variable.(Ûª«ÿÿÿÿÿ
+T
+java:S18546">Remove this useless assignment to local variable "testperiod".(àž‘ú
+R
+java:S18547"<Remove this useless assignment to local variable "testsumm".(×Ïþù
+[
+java:S18548"@Remove this useless assignment to local variable "testinitSumm".(Ûª«ÿÿÿÿÿ
+W
+java:S34571"AFormat specifiers should be used instead of string concatenation.(Æô»±
+E
+java:S14816"/Remove this unused "testperiod" local variable.(àž‘ú
+C
+java:S14817"-Remove this unused "testsumm" local variable.(×Ïþù
+L
+java:S14818"1Remove this unused "testinitSumm" local variable.(Ûª«ÿÿÿÿÿ
