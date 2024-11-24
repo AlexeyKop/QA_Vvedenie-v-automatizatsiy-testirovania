@@ -1,0 +1,119 @@
+1064 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+1069 [main] DEBUG org.mortbay.log - Container Server@723ca036 + org.mortbay.thread.QueuedThreadPool@5ddeb7cb as threadpool
+1078 [main] DEBUG org.mortbay.log - Container Server@723ca036 + DelayableSocketConnector@0.0.0.0:8080 as connector
+1096 [main] DEBUG org.mortbay.log - Container Server@723ca036 + org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} as handler
+1096 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} + ServletHandler@6e2829c7 as handler
+1102 [main] DEBUG org.mortbay.log - Container ServletHandler@6e2829c7 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128 as servlet
+1104 [main] DEBUG org.mortbay.log - Container ServletHandler@6e2829c7 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128,[/]) as servletMapping
+1110 [main] DEBUG org.mortbay.log - filterNameMap=null
+1111 [main] DEBUG org.mortbay.log - pathFilters=null
+1111 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1111 [main] DEBUG org.mortbay.log - servletPathMap={/=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128}
+1111 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128}
+1113 [main] DEBUG org.mortbay.log - Container ServletHandler@6e2829c7 - com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128 as servlet
+1113 [main] DEBUG org.mortbay.log - Container ServletHandler@6e2829c7 - (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128,[/]) as servletMapping
+1114 [main] DEBUG org.mortbay.log - Container Server@723ca036 - org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} as handler
+1114 [main] DEBUG org.mortbay.log - Container Server@723ca036 + HandlerCollection@446a1e84 as handler
+1114 [main] DEBUG org.mortbay.log - Container ServletHandler@6e2829c7 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128 as servlet
+1114 [main] DEBUG org.mortbay.log - Container ServletHandler@6e2829c7 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-76659128,[/]) as servletMapping
+1114 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} + ServletHandler@6e2829c7 as handler
+1114 [main] DEBUG org.mortbay.log - Container HandlerCollection@446a1e84 + org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} as handler
+1114 [main] DEBUG org.mortbay.log - Container HandlerCollection@446a1e84 + org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} as handler
+1114 [main] DEBUG org.mortbay.log - Container HandlerCollection@446a1e84 + org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} as handler
+1115 [main] DEBUG org.mortbay.log - Container HandlerCollection@446a1e84 + org.mortbay.jetty.servlet.Context@4f0f2942{/,null} as handler
+1115 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@4f0f2942{/,null} + ServletHandler@2657d4dd as handler
+1117 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + org.mortbay.jetty.servlet.DefaultServlet-947553027 as servlet
+1117 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + (S=org.mortbay.jetty.servlet.DefaultServlet-947553027,[/__files/*]) as servletMapping
+1118 [main] DEBUG org.mortbay.log - filterNameMap=null
+1118 [main] DEBUG org.mortbay.log - pathFilters=null
+1118 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1118 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-947553027}
+1118 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-947553027=org.mortbay.jetty.servlet.DefaultServlet-947553027}
+1118 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917 as servlet
+1119 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917,[/]) as servletMapping
+1119 [main] DEBUG org.mortbay.log - filterNameMap=null
+1119 [main] DEBUG org.mortbay.log - pathFilters=null
+1119 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1119 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-947553027, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917}
+1119 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-947553027=org.mortbay.jetty.servlet.DefaultServlet-947553027, com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917}
+1154 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245 as filter
+1156 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + (F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245,[/__files/*],[],2) as filterMapping
+1158 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245}
+1158 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245,[/__files/*],[],2)]
+1158 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1158 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-947553027, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917}
+1158 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-947553027=org.mortbay.jetty.servlet.DefaultServlet-947553027, com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917}
+1159 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2084559714 as filter
+1159 [main] DEBUG org.mortbay.log - Container ServletHandler@2657d4dd + (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2084559714,[/__files/*],[],15) as filterMapping
+1159 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2084559714=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2084559714}
+1160 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-331122245,[/__files/*],[],2), (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2084559714,[/__files/*],[],15)]
+1160 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1160 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-947553027, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917}
+1160 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-947553027=org.mortbay.jetty.servlet.DefaultServlet-947553027, com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-308433917}
+1160 [main] DEBUG org.mortbay.log - Container HandlerCollection@446a1e84 + org.mortbay.jetty.servlet.Context@14fc5f04{/__admin,null} as handler
+1160 [main] DEBUG org.mortbay.log - Container HandlerCollection@446a1e84 + org.mortbay.jetty.servlet.Context@4f0f2942{/,null} as handler
+1507 [main] INFO  org.max.seminar.accu.AbstractTest - Start WireMockServer on port 8080
+1531 [main] INFO  o.max.seminar.accu.GetLocationTest - Тест код ответ 401 запущен
+1532 [main] DEBUG o.max.seminar.accu.GetLocationTest - Формирование мока для GET /locations/v1/cities/autocomplete
+2412 [main] DEBUG o.max.seminar.accu.GetLocationTest - http клиент создан
+2497 [main] DEBUG org.max.seminar.accu.AbstractTest - convertResponseToString method call
+2525 [main] INFO  org.max.seminar.accu.AbstractTest - Stop WireMockServer
+949  [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+953  [main] DEBUG org.mortbay.log - Container Server@c430e6c + org.mortbay.thread.QueuedThreadPool@1033576a as threadpool
+960  [main] DEBUG org.mortbay.log - Container Server@c430e6c + DelayableSocketConnector@0.0.0.0:8080 as connector
+975  [main] DEBUG org.mortbay.log - Container Server@c430e6c + org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} as handler
+975  [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} + ServletHandler@69c81773 as handler
+979  [main] DEBUG org.mortbay.log - Container ServletHandler@69c81773 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257 as servlet
+980  [main] DEBUG org.mortbay.log - Container ServletHandler@69c81773 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257,[/]) as servletMapping
+984  [main] DEBUG org.mortbay.log - filterNameMap=null
+984  [main] DEBUG org.mortbay.log - pathFilters=null
+984  [main] DEBUG org.mortbay.log - servletFilterMap=null
+984  [main] DEBUG org.mortbay.log - servletPathMap={/=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257}
+984  [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257}
+986  [main] DEBUG org.mortbay.log - Container ServletHandler@69c81773 - com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257 as servlet
+986  [main] DEBUG org.mortbay.log - Container ServletHandler@69c81773 - (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257,[/]) as servletMapping
+986  [main] DEBUG org.mortbay.log - Container Server@c430e6c - org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} as handler
+986  [main] DEBUG org.mortbay.log - Container Server@c430e6c + HandlerCollection@28cda624 as handler
+986  [main] DEBUG org.mortbay.log - Container ServletHandler@69c81773 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257 as servlet
+986  [main] DEBUG org.mortbay.log - Container ServletHandler@69c81773 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1795816257,[/]) as servletMapping
+987  [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} + ServletHandler@69c81773 as handler
+987  [main] DEBUG org.mortbay.log - Container HandlerCollection@28cda624 + org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} as handler
+987  [main] DEBUG org.mortbay.log - Container HandlerCollection@28cda624 + org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} as handler
+987  [main] DEBUG org.mortbay.log - Container HandlerCollection@28cda624 + org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} as handler
+987  [main] DEBUG org.mortbay.log - Container HandlerCollection@28cda624 + org.mortbay.jetty.servlet.Context@1500b2f3{/,null} as handler
+987  [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@1500b2f3{/,null} + ServletHandler@7eecb5b8 as handler
+989  [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + org.mortbay.jetty.servlet.DefaultServlet-1551629761 as servlet
+989  [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + (S=org.mortbay.jetty.servlet.DefaultServlet-1551629761,[/__files/*]) as servletMapping
+989  [main] DEBUG org.mortbay.log - filterNameMap=null
+990  [main] DEBUG org.mortbay.log - pathFilters=null
+990  [main] DEBUG org.mortbay.log - servletFilterMap=null
+990  [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-1551629761}
+990  [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-1551629761=org.mortbay.jetty.servlet.DefaultServlet-1551629761}
+990  [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099 as servlet
+990  [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099,[/]) as servletMapping
+990  [main] DEBUG org.mortbay.log - filterNameMap=null
+991  [main] DEBUG org.mortbay.log - pathFilters=null
+991  [main] DEBUG org.mortbay.log - servletFilterMap=null
+991  [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-1551629761, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099}
+991  [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-1551629761=org.mortbay.jetty.servlet.DefaultServlet-1551629761, com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099}
+1020 [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911 as filter
+1021 [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + (F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911,[/__files/*],[],2) as filterMapping
+1023 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911}
+1023 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911,[/__files/*],[],2)]
+1023 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1023 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-1551629761, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099}
+1023 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-1551629761=org.mortbay.jetty.servlet.DefaultServlet-1551629761, com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099}
+1024 [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2079565272 as filter
+1024 [main] DEBUG org.mortbay.log - Container ServletHandler@7eecb5b8 + (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2079565272,[/__files/*],[],15) as filterMapping
+1025 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2079565272=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2079565272}
+1025 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-736920911,[/__files/*],[],2), (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-2079565272,[/__files/*],[],15)]
+1025 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1025 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-1551629761, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099}
+1025 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-1551629761=org.mortbay.jetty.servlet.DefaultServlet-1551629761, com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-462526099}
+1026 [main] DEBUG org.mortbay.log - Container HandlerCollection@28cda624 + org.mortbay.jetty.servlet.Context@30f842ca{/__admin,null} as handler
+1026 [main] DEBUG org.mortbay.log - Container HandlerCollection@28cda624 + org.mortbay.jetty.servlet.Context@1500b2f3{/,null} as handler
+1340 [main] INFO  org.max.seminar.accu.AbstractTest - Start WireMockServer on port 8080
+1364 [main] INFO  o.max.seminar.accu.GetLocationTest - Тест код ответ 200 запущен
+1643 [main] DEBUG o.max.seminar.accu.GetLocationTest - Формирование мока для GET /locations/v1/cities/autocomplete
+2146 [main] DEBUG o.max.seminar.accu.GetLocationTest - Мокирование для теста get_shouldReturn200 завершено
+2257 [main] INFO  org.max.seminar.accu.AbstractTest - Stop WireMockServer

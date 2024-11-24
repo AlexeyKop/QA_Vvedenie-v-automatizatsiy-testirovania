@@ -1,6 +1,7 @@
 package org.max.seminar.accu;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.tomakehurst.wiremock.client.WireMock;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -47,7 +48,7 @@ public class GetLocationTest extends AbstractTest{
                         .withStatus(200).withBody(mapper.writeValueAsString(bodyError))));
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
-        logger.debug("http клиент создан");
+        logger.debug("Мокирование для теста get_shouldReturn200 завершено");
         //when
 
         HttpGet request = new HttpGet(getBaseUrl()+"/locations/v1/cities/autocomplete");
@@ -80,7 +81,8 @@ public class GetLocationTest extends AbstractTest{
         logger.info("Тест код ответ 401 запущен");
         //given
         logger.debug("Формирование мока для GET /locations/v1/cities/autocomplete");
-        stubFor(get(urlPathEqualTo("/locations/v1/cities/autocomplete"))
+        // создаем Мок
+        stubFor(WireMock.get(urlPathEqualTo("/locations/v1/cities/autocomplete"))
                 .withQueryParam("apiKey", notMatching("82c9229354f849e78efe010d94150807"))
                 .willReturn(aResponse()
                         .withStatus(401).withBody("ERROR")));

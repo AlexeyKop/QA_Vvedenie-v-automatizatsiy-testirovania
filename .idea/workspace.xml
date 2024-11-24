@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7955d647-c5f0-4dc4-981f-4934672771c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/seminar/accu/GetLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/max/seminar/accu/GetLocationTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson5-demo-project" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.GetLocationTest.get_shouldReturn200.executor": "Run",
+    "JUnit.GetLocationTest.get_shouldReturn401.executor": "Run",
+    "git-widget-placeholder": "lesson5",
+    "last_opened_file_path": "D:/Learning_5.0_D disk/GeekBrains/QA_Vvedenie-v-automatizatsiy-testirovania"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.GetLocationTest.get_shouldReturn200">
+    <configuration name="GetLocationTest.get_shouldReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.accu.GetLocationTest" />
+      <option name="METHOD_NAME" value="get_shouldReturn200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLocationTest.get_shouldReturn401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.accu.GetLocationTest" />
+      <option name="METHOD_NAME" value="get_shouldReturn401" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WireMockTest.testPriority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.max.demo.WireMockTest" />
+      <option name="METHOD_NAME" value="testPriority" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WireMockTest.testURLMatching" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.max.demo.WireMockTest" />
+      <option name="METHOD_NAME" value="testURLMatching" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WireMockTest.testUrlEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.demo" />
+      <option name="MAIN_CLASS_NAME" value="org.max.demo.WireMockTest" />
+      <option name="METHOD_NAME" value="testUrlEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetLocationTest.get_shouldReturn200" />
+        <item itemvalue="JUnit.GetLocationTest.get_shouldReturn401" />
+        <item itemvalue="JUnit.WireMockTest.testURLMatching" />
+        <item itemvalue="JUnit.WireMockTest.testUrlEqual" />
+        <item itemvalue="JUnit.WireMockTest.testPriority" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
