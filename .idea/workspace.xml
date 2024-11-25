@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85fe593f-6a68-440b-9f13-573f87b1f500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/run-junit-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2024_20_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2024_20_14__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2024_19_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2024_19_58__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/422fbb5acf0743e64fb28315ad985d4e6f6cc6ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/422fbb5acf0743e64fb28315ad985d4e6f6cc6ff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ec041c340a856da620505d9e9976553a7308b2d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ec041c340a856da620505d9e9976553a7308b2d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fe85116ba767fdc7e8c38cf1674602258b3c0fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fe85116ba767fdc7e8c38cf1674602258b3c0fd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c7da1fa6400ef933d012ac01103258eef60f87" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c7da1fa6400ef933d012ac01103258eef60f87" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/908e4c6e8fe41ba74bdb6099c17c71eba53d8142" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/908e4c6e8fe41ba74bdb6099c17c71eba53d8142" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run-junit-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run-junit-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/CityNeighborsByLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/CityNeighborsByLocationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/LocationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherFiveDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherFiveDayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherOneDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherOneDayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherTenDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherTenDayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
