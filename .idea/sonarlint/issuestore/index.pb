@@ -95,3 +95,5 @@ Lsrc/main/java/org/max/Test_REST_API/seminar/accuweather/weather/Weather.java,e
 Qsrc/test/java/com/home/Test_REST_API/accuweather/CityNeighborsByLocationTest.java,5\e\5ec041c340a856da620505d9e9976553a7308b2d
 }
 Msrc/test/java/com/home/Test_REST_API/accuweather/SearchByLocationKeyTest.java,4\a\4a4b43cb32e259466c5850543539fdb65e0310a4
+T
+$.github/workflows/run-junit-test.yml,a\b\ab58e25fa0bb5d2487c493fb5a2600c533d4a91b

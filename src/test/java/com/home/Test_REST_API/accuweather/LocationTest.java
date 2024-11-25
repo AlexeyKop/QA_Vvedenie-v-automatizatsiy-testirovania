@@ -1,17 +1,24 @@
 package com.home.Test_REST_API.accuweather;
 
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import com.home.Test_REST_API.accuweather.location.Location;
-
 import java.util.List;
-
 import static io.restassured.RestAssured.given;
 
+@Epic("Тестирование проекта accuweather.com")
+@Feature("Тестирование API Location API")
 public class LocationTest extends AccuweatherAbstractTest{
 
     @Test
+    @DisplayName("Тест LocationTest - поиск объекта Location")
+    @Description("Данный тест на поиск Location по ключу Kazan")
+    @Link("https://developer.accuweather.com/accuweather-locations-api/apis")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Получение объекта Location для Kazan")
+    @Owner("Alex Kop")
     void getLocation_search_returnKazan() {
 
         List<Location> response = given()

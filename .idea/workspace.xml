@@ -4,112 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ddfb3a-09f6-4ce7-a243-b69cd9f47b27" name="Changes" comment="add README">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherTenDayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_home.postman_test_run.json" afterDir="false" />
+    <list default="true" id="85fe593f-6a68-440b-9f13-573f87b1f500" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/run-junit-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2024_20_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_11_2024_20_14__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2024_19_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2024_19_58__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/422fbb5acf0743e64fb28315ad985d4e6f6cc6ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/422fbb5acf0743e64fb28315ad985d4e6f6cc6ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ec041c340a856da620505d9e9976553a7308b2d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ec041c340a856da620505d9e9976553a7308b2d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fe85116ba767fdc7e8c38cf1674602258b3c0fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fe85116ba767fdc7e8c38cf1674602258b3c0fd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c7da1fa6400ef933d012ac01103258eef60f87" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c7da1fa6400ef933d012ac01103258eef60f87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/908e4c6e8fe41ba74bdb6099c17c71eba53d8142" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/908e4c6e8fe41ba74bdb6099c17c71eba53d8142" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/demo/spoonacular/ResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/AdministrativeArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/AdministrativeArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Elevation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/Elevation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/GeoPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/GeoPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Imperial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/Imperial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Metric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/Metric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/SupplementalAdminArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/SupplementalAdminArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/TimeZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/location/TimeZone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/DailyForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/DailyForecast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Day.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Headline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Headline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Maximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Minimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Minimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Night.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Night.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/Test_REST_API/accuweather/weather/Weather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/spoonacular/ClassifyCuisineDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/spoonacular/IngredientSubstitutesDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/location/AdministrativeArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/location/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/location/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/DailyForecast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Headline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Maximum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Minimum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Night.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/accuweather/weather/Weather.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/ConvertAmountsDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/RandomRecipesDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/SimilarRecipesDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/AnalyzedInstruction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Equipment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/ExtendedIngredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Ingredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Length.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Measures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Metric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/OrgMaxLesson3Seminar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Step.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/seminar/spoonacular/recipers/Us.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/RestAssuredExampleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/accuweather/AccuweatherAbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/accuweather/DemoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/accuweather/LogDemoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/spoonacular/DemoTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/spoonacular/LogDemoTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/demo/spoonacular/SpoonacularAbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/AccuweatherAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/AccuweatherAbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/GetLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/LocationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/GetWeatherOneDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherOneDayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/spoonacular/ClassifyCuisineTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/spoonacular/IngredientSubstitutesTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/spoonacular/SpoonacularAbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/accuweather/AccuweatherAbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/accuweather/GetLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/CityNeighborsByLocationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/accuweather/GetWeatherFiveDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherFiveDayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/accuweather/GetWeatherTenDayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/spoonacular/ConvertAmountsTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/spoonacular/RandomRecipesTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/spoonacular/SimilarRecipesTestSpoonacular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/spoonacular/SpoonacularAbstractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/accuweather.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather_demo.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather_home.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather_seminar.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/demo_spoonacular.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/home_spoonacular.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/seminar_spoonacular.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/spoonacular.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/CityNeighborsByLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/CityNeighborsByLocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/LocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherFiveDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherFiveDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherOneDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherOneDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherTenDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherTenDayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3" />
+        <entry key="$PROJECT_DIR$" value="lesson3_DZ" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2ozJjjHRQaKvd3l57D7PalYddO3" />
+  <component name="ProjectId" id="2pL4bqM1GKxUE7UkFRHFwyXECYt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -117,52 +48,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.CityNeighborsByLocationTest.getLocation_search_CityNeighborsByKazan.executor": "Run",
-    "JUnit.CityNeighborsByLocationTest.getLocation_search_returnKazan.executor": "Run",
-    "JUnit.CompositeTest.executor": "Run",
-    "JUnit.CompositeTest.testAddNullComponent.executor": "Run",
-    "JUnit.DemoTest.getExampleTest.executor": "Run",
-    "JUnit.DemoTest.getResponseData.executor": "Run",
-    "JUnit.DemoTest.getSpecifyingRequestDataTest.executor": "Run",
-    "JUnit.DemoTest.getVerifyingResponseData.executor": "Run",
-    "JUnit.GetWeatherTenDayTest.get_ten_day_return_401.executor": "Run",
-    "JUnit.LocationTest.getLocation_search_returnKazan.executor": "Run",
-    "JUnit.LogDemoTest.logFailTest.executor": "Run",
-    "JUnit.LogDemoTest.logRequestTest.executor": "Run",
-    "JUnit.LogDemoTest.logResponseTest.executor": "Run",
-    "JUnit.RestAssuredExampleTest.test.executor": "Run",
-    "JUnit.SearchByLocationKeyTest.getLocation_search_byLocationKey.executor": "Run",
-    "JUnit.SearchByLocationKeyTest.getLocation_search_returnKazan.executor": "Run",
-    "JUnit.WeatherFiveDayTest.executor": "Run",
-    "JUnit.WeatherFiveDayTest.getWeatherFiveDay_shouldReturn.executor": "Run",
-    "JUnit.WeatherOneDayTest.getWeatherOneDay_shouldReturn.executor": "Run",
-    "JUnit.WeatherTenDayTest.getWeatherTenDay_shouldReturn401.executor": "Run",
-    "Maven.auto [package].executor": "Run",
-    "Maven.composite [clean].executor": "Run",
-    "Maven.composite [test].executor": "Run",
+    "Maven.auto [clean].executor": "Run",
+    "Maven.auto [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "Maven.auto [org.apache.maven.plugins:maven-surefire-report-plugin:2.22.2:report].executor": "Run",
+    "Maven.auto [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "lesson3__DZ",
+    "git-widget-placeholder": "lesson6__DZ__CI",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/Learning_5.0_D disk/GeekBrains/QA_Vvedenie-v-automatizatsiy-testirovania/src/main/java/com/home",
-    "last_opened_file_path": "D:/Learning_5.0_D disk/GeekBrains/QA_Vvedenie-v-automatizatsiy-testirovania/src/test/resources",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.24022989",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Learning_5.0_D disk\GeekBrains\QA_Vvedenie-v-automatizatsiy-testirovania\src\test\resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.home.Test_REST_API.home.accuweather" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.home.Test_REST_API.accuweather" />
-    </key>
-  </component>
   <component name="RunManager" selected="JUnit.CityNeighborsByLocationTest.getLocation_search_CityNeighborsByKazan">
     <configuration name="CityNeighborsByLocationTest.getLocation_search_CityNeighborsByKazan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto" />
@@ -245,58 +143,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CityNeighborsByLocationTest.getLocation_search_CityNeighborsByKazan" />
-        <item itemvalue="JUnit.SearchByLocationKeyTest.getLocation_search_byLocationKey" />
-        <item itemvalue="JUnit.SearchByLocationKeyTest.getLocation_search_returnKazan" />
-        <item itemvalue="JUnit.LocationTest.getLocation_search_returnKazan" />
         <item itemvalue="JUnit.WeatherFiveDayTest" />
+        <item itemvalue="JUnit.SearchByLocationKeyTest.getLocation_search_returnKazan" />
+        <item itemvalue="JUnit.SearchByLocationKeyTest.getLocation_search_byLocationKey" />
+        <item itemvalue="JUnit.LocationTest.getLocation_search_returnKazan" />
+        <item itemvalue="JUnit.CityNeighborsByLocationTest.getLocation_search_CityNeighborsByKazan" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="05ddfb3a-09f6-4ce7-a243-b69cd9f47b27" name="Changes" comment="" />
-      <created>1731866616719</created>
+      <changelist id="85fe593f-6a68-440b-9f13-573f87b1f500" name="Changes" comment="" />
+      <created>1732532322278</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731866616719</updated>
+      <updated>1732532322278</updated>
     </task>
-    <task id="LOCAL-00001" summary="add README">
-      <option name="closed" value="true" />
-      <created>1731937044489</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1731937044489</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add README" />
-    <option name="LAST_COMMIT_MESSAGE" value="add README" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/home/Test_REST_API/accuweather/WeatherFiveDayTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
